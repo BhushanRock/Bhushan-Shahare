@@ -1,0 +1,18 @@
+grain = {
+    "Buckwheat": "The nutty, bitter flavor of whole grain buckwheat flour is delicious in chocolate chip cookies and gluten-free pastries.",
+    "Bulgur": " consists of the precooked, dried, and ground kernels (groats) of durum or other types of wheat. Quick-cooking, fiber-rich (18 grams of fiber per cup) bulgur is the main ingredient in tabbouleh salad and kibbeh meat patties.",
+    "Corn": "has an especially high content of oily germ, which makes whole-grain corn prone to rancidity, so why most cornmeal on the market is degermed. Make sure your cornmeal is labeled “whole corn” or “whole grain” (stone ground cornmeal is often whole grain, but not always) to get the most nutrients, and store that highly perishable cornmeal in the fridge or freezer",
+    "Oats": "are one of the few common grains almost always sold whole. Old-fashioned, or rolled oats are steamed and flattened, whereas steel-cut oats consist of the entire grain kernel, cracked for faster cooking.",
+    "Brown Rice)": "gets its color from the bran coating surrounding the kernels. After rice is harvested, the bran and germ layers are either left intact or removed, yielding brown or white rice, respectively",
+    "Wheat": "comes in thousands of varieties, the most common of which are durum wheat (Triticum durum), usually ground into semolina for pasta and couscous; common wheat (Triticum aestivum), which accounts for 80 percent of worldwide production and is used to make bread; and club wheat (Triticum compactum), which is used in pastry",
+    "Amaranth": "Amaranth was a staple of iacus and A. caudatus — are also grown for their edible seeds, but A. cruentus is most common.)\n)"
+}
+print("\n\navailable grain infos:1)Buckwheat, 2)Bulgur,3) Corn,4)Brown Rice,5) Wheat,6) Amaranth")
+print('\nEnter the name of grain: ')
+grain_name = input()
+if grain_name not in grain: #its help to get one name from grain
+    print("\nwrong name you entered")
+else:
+    print("\ninfo about", grain_name, ": ", grain[grain_name],"\n");
+    
+    
